@@ -5,3 +5,16 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# Allure raw results
+allure-results/
+
+# Allure final report
+allure-report/
+
+# Env & logs
+.env
+*.log
+
+# Playwright HTML report
+playwright-report/
