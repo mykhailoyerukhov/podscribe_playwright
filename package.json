@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test ./test.spec.ts --ui",
-    "test:debug": "npx playwright test ./test.spec.ts --debug",
+    "test": "npx playwright test ./podcast-titles.spec.ts",
+    "test:debug": "npx playwright test ./podcast-titles.spec.ts --debug",
     "test:ci": "npx playwright test --reporter=html",
     "allure:generate": "allure generate allure-results --clean -o allure-report",
     "allure:open": "allure open allure-report"
